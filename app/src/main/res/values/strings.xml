@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyJetpackPractice</string>
+<!-- Loginpage   -->
+    <string name="loginText">LOGIN</string>
+    <string name="forgotPassText">Forgot your password?</string>
+    <string name="rememberMeText">Remember Me</string>
+    <string name="NotAccountText">Not Have Account?<b></b></string>
+    <string name="SignUpText">SignUp</string>
+</resources>
