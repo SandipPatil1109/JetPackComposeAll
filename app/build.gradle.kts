@@ -70,11 +70,11 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
         //for navigation in jetpack compose
-    implementation ("androidx.navigation:navigation-compose:2.8.7")
+    implementation ("androidx.navigation:navigation-compose:2.8.8")
 
     //hilt
     implementation ("com.google.dagger:hilt-android:2.51.1")
-    kapt ("com.google.dagger:hilt-android-compiler:2.50")
+    kapt ("com.google.dagger:hilt-android-compiler:2.51.1")
 
     // Hilt extension for Jetpack Compose
     implementation ("androidx.hilt:hilt-navigation-compose:1.2.0")
