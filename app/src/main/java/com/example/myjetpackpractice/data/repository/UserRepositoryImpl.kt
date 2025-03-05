@@ -10,4 +10,8 @@ class UserRepositoryImpl @Inject constructor(private val userDao: UserDao) {
     suspend fun saveUser(userData: UserData) {
         userDao.saveUser(userData)
     }
+
+    suspend fun getUserData():UserData{
+        return userDao.getUserData()
+    }
 }

@@ -205,6 +205,7 @@ fun loginPage(navController: NavController,loginViewModel: LoginViewModel = hilt
                     userName = ""
                     password = ""
                     checked = false
+
                     navController.navigate("homePage")
                 },
                 modifier = Modifier
